@@ -1,0 +1,30 @@
+/* Category tags style */
+
+.filter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;  
+    box-shadow: 1px 1px 1em #6e6e6e;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.tag {
+    padding: 8px 8px;
+    margin: .3em;
+    border: 2.5px solid #fc4f24;
+    border-radius: 1em;
+    background-color: #ebebebee;
+}
